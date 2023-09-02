@@ -10,7 +10,7 @@ def takeInput():
     for i in inputList:
         if i == -1:
             break
-        newNode = Node(i)
+        newNode = Node(i) 
         if head is None:
             head = newNode
             tail = newNode
