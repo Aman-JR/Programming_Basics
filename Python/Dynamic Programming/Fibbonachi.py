@@ -19,5 +19,5 @@ def iterative_FibNumber(n):
     return memo[n]
 
 n = int(input("Enter the number whose fib number you want to find : "))
-# memo = [-1] * (n+1)
+memo = [-1] * (n+1)
 print(iterative_FibNumber(n))
